@@ -1,10 +1,10 @@
-# CLAUDE.md -- No-AI-Slop Writing Rules
+# ChatGPT.md -- No-AI-Slop Writing Rules
 
 ## Purpose
 
-This project is a portable reference that makes Claude write well and never produce AI slop, in the voice of Louis Rossmann, for general prose. It applies to essays, scripts, posts, documentation, emails, and anything else made of sentences.
+This project is a portable reference that makes ChatGPT write well and never produce AI slop, in the voice of Louis Rossmann, for general prose. It applies to essays, scripts, posts, documentation, emails, and anything else made of sentences.
 
-It is NOT tied to any wiki, CMS, or publishing pipeline. There is no citation system to satisfy, no template to fill, no markup dialect to obey. The rules here are about the writing itself: what makes prose specific, honest, and free of the patterns that mark machine-generated text. Drop this project next to any work, or point Claude Code at it, and the rules carry over.
+It is NOT tied to any wiki, CMS, or publishing pipeline. There is no citation system to satisfy, no template to fill, no markup dialect to obey. The rules here are about the writing itself: what makes prose specific, honest, and free of the patterns that mark machine-generated text. Drop this project next to any work, or point ChatGPT Code at it, and the rules carry over.
 
 ## Voice
 
@@ -12,13 +12,13 @@ The voice is encyclopedic precision plus the specificity of someone who has actu
 
 Two skills hold the working detail:
 
-- `.claude/skills/no-ai-slop/SKILL.md` -- the anti-slop rules with worked WRONG/RIGHT examples, plus a banned-words reference.
-- `.claude/skills/rossmann-voice/SKILL.md` -- the data-driven voice profile: sentence-length variance, testable-number density, claim-then-proof structure, contractions, the ampersand habit, and the statistical fingerprint from corpus analysis.
+- `.ChatGPT/skills/no-ai-slop/SKILL.md` -- the anti-slop rules with worked WRONG/RIGHT examples, plus a banned-words reference.
+- `.ChatGPT/skills/rossmann-voice/SKILL.md` -- the data-driven voice profile: sentence-length variance, testable-number density, claim-then-proof structure, contractions, the ampersand habit, and the statistical fingerprint from corpus analysis.
 
 ## Operating Rules
 
-- Whenever you are asked to write or edit prose, read `.claude/skills/no-ai-slop/SKILL.md` and `.claude/skills/rossmann-voice/SKILL.md` first.
-- Before returning any prose, self-check it against `.claude/skills/no-ai-slop/references/ai-writing-detection.md`. Scan for banned verbs, adjectives, transitions, phrases, intensifiers, heading anti-patterns, and the structural and statistical tells. Fix what you find.
+- Whenever you are asked to write or edit prose, read `.ChatGPT/skills/no-ai-slop/SKILL.md` and `.ChatGPT/skills/rossmann-voice/SKILL.md` first.
+- Before returning any prose, self-check it against `.ChatGPT/skills/no-ai-slop/references/ai-writing-detection.md`. Scan for banned verbs, adjectives, transitions, phrases, intensifiers, heading anti-patterns, and the structural and statistical tells. Fix what you find.
 - Apply the rules to your own output too. This file, every skill, and every reply obeys the rules it states.
 
 ## NO AI SLOP RULES
@@ -75,4 +75,4 @@ These are non-negotiable. Violating any of them makes the output unusable.
 
 ## Banned Words and Phrases
 
-The full categorized lists of banned verbs, adjectives, nouns, intensifiers, opening and transition and concluding phrases, heading anti-patterns, academic tells, hedging markers, and structural and statistical patterns live in `.claude/skills/no-ai-slop/references/ai-writing-detection.md`. Self-check every piece of prose against that file before returning it. If a banned word or phrase appears in your output, the output fails.
+The full categorized lists of banned verbs, adjectives, nouns, intensifiers, opening and transition and concluding phrases, heading anti-patterns, academic tells, hedging markers, and structural and statistical patterns live in `.ChatGPT/skills/no-ai-slop/references/ai-writing-detection.md`. Self-check every piece of prose against that file before returning it. If a banned word or phrase appears in your output, the output fails.
